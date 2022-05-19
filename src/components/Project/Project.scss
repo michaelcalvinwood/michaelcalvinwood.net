@@ -1,0 +1,100 @@
+.project {
+    width: 30vw;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: max-content;
+    margin: 0 0 2rem 0;
+
+    @media screen and (max-width: 786px) {
+        width: 90%;
+    }
+
+    &__heading {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        justify-items: flex-start;
+    }
+    &__icon {
+        height: 2rem;
+        width: auto;
+    }
+    &__title {
+        font-size: 2rem;
+        margin-left: .25rem;
+    }
+    &__video, &__image {
+        margin: .5rem 0 0 2.5vw;
+        width: 25vw;
+        height: 12vw;
+        cursor: pointer;
+
+        @media screen and (max-width: 786px) {
+            width: 90%;
+            height: auto;
+        }
+    }
+    &__mobile-image-container {
+        margin: .5rem 0 0 2.5vw;
+       
+        display: flex;
+        justify-content: space-between;
+        box-sizing: content-box;
+    }
+    &__image01 {
+        
+        height: 12vw;
+        width: 25%;
+        cursor: pointer;
+
+        @media screen and (max-width: 786px) {
+            width: 30%;
+            height: auto;
+        }
+    }
+    &__tech {
+        padding: .5rem;
+    }
+    &__tech-label {
+        font-weight: 600;
+    }
+    &__tech-stack {
+        font-style: italic;
+    }
+    &__client-repo-info, &__server-repo-info, &__view {
+        padding: .5rem;
+        overflow-x: hidden;
+        
+    }
+    &__client-repo-label, &__server-repo-label, &__view-label {
+        display: inline;
+        font-weight: 600;
+    }
+    &__source-code-container {
+        margin: .5rem 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__repo {
+        
+        margin: 0 .5rem;
+        display: inline;
+        text-decoration: none;
+        overflow-x: hidden;
+        padding: .25rem;
+        border: 1px solid black;
+        border-radius: 4px;
+
+        &:hover {
+            background-color: aqua;
+        }
+    }
+    &__view-link {
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
