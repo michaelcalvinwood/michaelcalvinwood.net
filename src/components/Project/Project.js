@@ -25,8 +25,7 @@ function Project({info}) {
             </a>    
         }
         <p className='project__view'>
-            <span className='project__view-label'>View:&nbsp;</span>
-            <a className='project__view-link' href={info.view} target="_blank" >{info.view} </a>
+            <a className='project__view-display' href={info.view} target="_blank"> View </a>
         </p>
         <p className="project__tech">
             <span className="project__tech-label">Tech Stack:&nbsp;</span>
