@@ -32,6 +32,22 @@ function Project({info}) {
             <span className="project__tech-stack">{info.tech}</span>
         </p>
         <div className="project__source-code-container">
+            {info.apple &&
+                <a 
+                    target="__blank"
+                    className="project__repo button"
+                    href={info.apple}>
+                        Apple Store
+                </a> 
+            }
+            {info.google &&
+                <a 
+                target="__blank"
+                className="project__repo button"
+                href={info.google}>
+                    Google Play
+            </a> 
+            }
             {info.repos[0] &&
                 <a 
                     target="__blank"
@@ -47,14 +63,6 @@ function Project({info}) {
                     className="project__repo button"
                     href={info.repos[1]}>
                         Server Repo
-                </a> 
-            }
-            {info.apple &&
-                <a 
-                    target="__blank"
-                    className="project__repo button"
-                    href={info.apple}>
-                        Apple Store
                 </a> 
             }
 

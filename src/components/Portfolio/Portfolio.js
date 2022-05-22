@@ -40,7 +40,8 @@ const portfolio = [
         image03: relaxationTimerImage03,
         tech: 'mobile app created with react, ionic, typescript, javascript, HTML, CSS, SASS',
         repos: ['https://github.com/michaelcalvinwood/ionic-relaxation-timer'],
-        apple: 'https://apps.apple.com/us/app/rapid-relaxation-timer/id1622992653?platform=iphone'
+        apple: 'https://apps.apple.com/us/app/rapid-relaxation-timer/id1622992653?platform=iphone',
+        google: 'https://play.google.com/store/apps/details?id=net.michaelcalvinwood.ionicrelaxationtimer'
     },
     {
         icon: instantMemeIcon,
