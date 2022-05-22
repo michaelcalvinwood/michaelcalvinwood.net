@@ -25,7 +25,7 @@ function Project({info}) {
             </a>    
         }
         <p className='project__view'>
-            <a className='project__view-display' href={info.view} target="_blank"> View </a>
+            <a className='project__view-display button' href={info.view} target="_blank"> View </a>
         </p>
         <p className="project__tech">
             <span className="project__tech-label">Tech Stack:&nbsp;</span>
@@ -35,7 +35,7 @@ function Project({info}) {
             {info.repos[0] &&
                 <a 
                     target="__blank"
-                    className="project__repo"
+                    className="project__repo button"
                     href={info.repos[0]}>
                       
                     Client Repo
@@ -44,7 +44,7 @@ function Project({info}) {
             {info.repos[1] &&
                 <a 
                     target="__blank"
-                    className="project__repo"
+                    className="project__repo button"
                     href={info.repos[1]}>
                         Server Repo
                 </a> 
@@ -52,7 +52,7 @@ function Project({info}) {
             {info.apple &&
                 <a 
                     target="__blank"
-                    className="project__repo"
+                    className="project__repo button"
                     href={info.apple}>
                         Apple Store
                 </a> 
