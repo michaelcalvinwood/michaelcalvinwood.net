@@ -13,7 +13,7 @@ import instockImage from '../../assets/images/instockinventory-com.png';
 import movieNightIcon from '../../assets/images/ticket.svg';
 import movieNightImage from '../../assets/images/movie-night-out.png';
 
-import bandsiteIcon from '../../assets/images/bee.svg';
+import bandsiteIcon from '../../assets/images/music.svg';
 import bandsiteImage from '../../assets/images/bandsite.png';
 
 import relaxationTimerIcon from '../../assets/images/relaxation-timer-icon.svg';
@@ -26,7 +26,6 @@ const portfolio = [
     {
         icon: treePadIcon,
         title: 'TreePad Cloud',
-        view: 'https://treepadcloud.com',
         video: 'https://www.youtube.com/embed/Bk2GCqT1wP0',
         tech: 'react, node.js, express, javascript, HTML, CSS, SASS, BEM, dropzone, multer, REST API, bcrypt, axios, jwt, knex, mysql',
         repos: ['https://github.com/michaelcalvinwood/treepad-cloud-react-dom', 'https://github.com/michaelcalvinwood/treepad-cloud-node-express']

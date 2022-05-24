@@ -24,9 +24,11 @@ function Project({info}) {
                 </div>
             </a>    
         }
-        <p className='project__view'>
-            <a className='project__view-display button' href={info.view} target="_blank"> View </a>
-        </p>
+        {info.view && 
+            <p className='project__view'>
+                <a className='project__view-display button' href={info.view} target="_blank"> View </a>
+            </p>
+        }
         <p className="project__tech">
             <span className="project__tech-label">Tech Stack:&nbsp;</span>
             <span className="project__tech-stack">{info.tech}</span>
