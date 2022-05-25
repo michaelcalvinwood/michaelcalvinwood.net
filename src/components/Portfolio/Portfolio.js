@@ -26,6 +26,8 @@ const portfolio = [
     {
         icon: treePadIcon,
         title: 'TreePad Cloud',
+        view: 'https://treepadcloudenterprise.com',
+        description: "This proof-of-concept version of TreePad Cloud was created as my final two-week project at Brainstation's Web Development diploma program. I am currently building a stylized, enterprise version capable of scaling to 1 billion users with features beyond that which Evernote, Slack, Discord, and Zoom offer — all in one. See View link above to see this in-progress redesign.",
         video: 'https://www.youtube.com/embed/Bk2GCqT1wP0',
         tech: 'react, node.js, express, javascript, HTML, CSS, SASS, BEM, dropzone, multer, REST API, bcrypt, axios, jwt, knex, mysql',
         repos: ['https://github.com/michaelcalvinwood/treepad-cloud-react-dom', 'https://github.com/michaelcalvinwood/treepad-cloud-node-express']

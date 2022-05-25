@@ -29,6 +29,12 @@ function Project({info}) {
                 <a className='project__view-display button' href={info.view} target="_blank"> View </a>
             </p>
         }
+        {info.description &&
+            <p className="project__tech">
+            <span className="project__tech-label">Description:&nbsp;</span>
+            <span className="project__tech-stack">{info.description}</span>
+            </p>
+        }
         <p className="project__tech">
             <span className="project__tech-label">Tech Stack:&nbsp;</span>
             <span className="project__tech-stack">{info.tech}</span>
